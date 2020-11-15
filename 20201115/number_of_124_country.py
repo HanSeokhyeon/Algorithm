@@ -4,3 +4,5 @@ def solution(n):
     else:
         q, r = divmod(n-1, 3)
         return solution(q) + '124'[r]
+
+print(solution(3))
